@@ -45,7 +45,7 @@ export default function Home() {
           >
             <h1>{title}</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             
               Repudiandae ab molestiae pariatur velit sed omnis, aperiam porro
               totam voluptates expedita eum cumque officia hic tempora neque
               veniam explicabo ratione ipsam deleniti consectetur a aliquid! Ut
@@ -57,7 +57,7 @@ export default function Home() {
               veniam non mollitia laboriosam asperiores error iste sequi. Porro
               nobis vero autem asperiores voluptatum accusantium quo neque
               dolorum aperiam soluta. Ratione quia eaque dolore repudiandae
-              dolorum maxime incidunt, quis omnis veniam minus, voluptates amet
+     
               voluptate error voluptatum eligendi voluptatibus sint aperiam
               excepturi, ea at quibusdam! Soluta nisi nam itaque adipisci est
               iusto doloremque exercitationem necessitatibus! Excepturi facilis
