@@ -1,0 +1,68 @@
+/* styles/Home.module.css */
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: min(100% - 1rem, 110rem);
+  margin: 0 auto;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.left {
+  flex: 0 0 40%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(120deg, #ff7eb3, #ff758c);
+  z-index: 10;
+  box-shadow: 4px 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.image {
+  max-width: 70%;
+  max-height: 70%;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.right {
+  flex: 1;
+  margin-left: 40%;
+  padding: 40px;
+  overflow-y: scroll;
+  height: 100vh;
+  scroll-behavior: smooth;
+  background: #f9f9f9;
+}
+
+.section {
+  margin-bottom: 60px;
+  padding: 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  transform-origin: top center;
+}
+
+.section h1 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.section p {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Hover animations */
+.section:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
